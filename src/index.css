@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.text-primary {
+  color: #ff6600;
+}
+.bg-primary {
+  background-color: #ff6600;
+}
+
+.text-black {
+  color: #39393b;
+}
+.t-logo {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.btn-after {
+  position: relative;
+}
+.btn-after::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease;
+  justify-content: center;
+  z-index: -999;
+  border-radius: 5px;
+  backdrop-filter: blur(100px);
+  top: 0%;
+  background-color: #ff660065;
+}
+.btn-after:hover:before {
+  left: 5%;
+  top: 10%;
+}
+.h-20 {
+  height: 72px;
+}
+.border-primary {
+  border-color: #ff6600;
+}
+
+.link-after {
+  overflow: hidden;
+  position: relative;
+}
+.link-after::after {
+  position: absolute;
+  transition: 0.2s ease;
+  content: "";
+  left: -100%;
+  top: 65.17%;
+  /* bottom: 0%; */
+  width: 70%;
+  /* left: 15%; */
+  border-radius: 100px;
+
+  align-items: center;
+}
+.link-after:hover::after {
+  left: 15%;
+  border: 1px solid #ff6600;
+}
+/* .link-after; */
