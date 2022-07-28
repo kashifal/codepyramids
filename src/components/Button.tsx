@@ -8,19 +8,13 @@ interface pro {
 }
 
 const Button = (props: pro) => {
-  console.log(
-    `${props.paddingX} ${props.paddingY} bg-primary text-white font-bold rounded btn-after`
-  );
-
   return (
     <Fragment>
       <button
-        className={`${props.paddingX} ${props.paddingY} bg-primary text-white font-bold rounded btn-after`}
+        className={`${props.paddingX} ${props.paddingY} bg-primary text-white font-medium rounded `}
       >
-        Register{"  "}
-        <span className="text-sm">
-          <FontAwesomeIcon icon={faAngleRight} />
-        </span>
+        Sign in{"  "}
+        <span className="text-sm"></span>
       </button>
     </Fragment>
   );
