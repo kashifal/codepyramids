@@ -11,11 +11,11 @@ const Header = () => {
     { title: "Courses", link: "/" },
     { title: "Internship", link: "/" },
     { title: "Projects", link: "/" },
-    { title: "Report", link: "/" },
+    // { title: "Report", link: "/" },
   ];
   return (
     <Fragment>
-      <div className="w-screen h-20 flex items-center justify-center shadow">
+      <div className=" z-50 max-w-[1424px] mx-auto px-4 h-20 flex items-center justify-center">
         <div className="xl:container  w-full  flex item-center justify-between px-8 xl:px-6">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <h2 className="font-black text-2xl text-custom-dark t-logo">
@@ -47,7 +47,7 @@ const Header = () => {
             {links.map((link) => (
               <button
                 key={link.title}
-                className="text-dark px-3 xl:px-4 text-base py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary"
+                className="text-dark px-4 xl:px-4 text-base py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary"
               >
                 {link.title}
               </button>
