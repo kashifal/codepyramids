@@ -30,3 +30,7 @@
 .border-primary {
   border-color: #ff6600;
 }
+
+.custom-height {
+  height: 620px;
+}
