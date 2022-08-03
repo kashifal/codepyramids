@@ -15,9 +15,6 @@ export default function App() {
   const images = new Array(6).fill({ url: image });
   return (
     <>
-      <p className="text-black font-light text-sm mt-4 md:mt-0">
-        Featured Courses
-      </p>
       <h1 className="text-[28px] -mt-2 md:text-[35px] text-center	md:text-left xl:text-[30px] text-black  font-bold leading-[32px] md:leading-[40px] xl:leading-[60px] ">
         Age 6+{" "}
         <span className="text-custom-primary"> web development courses</span>
