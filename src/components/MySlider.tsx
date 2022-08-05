@@ -1,5 +1,6 @@
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Icon } from "@iconify/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -99,18 +100,18 @@ export default function App() {
         >
           {coursesData.map((item, index) => (
             <SwiperSlide key={index} className="swiper-slide">
-              <div className="absolute z-40 text-sm font-light text-white w-16 h-6 top-2 left-2 rounded-sm flex items-center justify-center bg-[rgba(255,154,0,.8)]">
+              <div className="absolute z-40 text-sm font-light text-white w-16 h-6 top-2 left-2 rounded-sm flex items-center justify-center bg-[rgba(214,48,76,.8)]">
                 age {item.age}
               </div>
               <div className="relative h-full w-full flex justify-between flex-col card-data">
-                <div className="relative w-full h-[40%] object-cover flex items-center justify-center img">
-                  <img className="w-full h-full" src={item.img} alt="" />
+                <div className=" relative w-full h-[40%] object-cover  img">
+                  <img className=" w-full h-full" src={item.img} alt="" />
 
                   <div className="h-16 w-16 bg-white top-28 left-4 border-2 absolute institute">
                     <img src={item.logo} alt="" />
                   </div>
                 </div>
-                <div className="w-full h-[60%] bg-custom-dark px-4 p text-white py-14 info">
+                <div className="w-full h-[60%] bg-custom-dark px-4 text-left text-white py-14 info">
                   <h1 className="font-bold text-[16px] text-left">
                     {item.title}
                   </h1>
@@ -118,7 +119,7 @@ export default function App() {
                     Lorem ipsum dolor sit amet adipisicing elit. Autem facilis
                     nemo commodi molestiae.
                   </p>
-                  <button className="px-2 py-[5px] text-sm font-light mt-2  border-2 border-transparent text-custom-primary rounded hover:border-2 hover:border-custom-primary">
+                  <button className="px-2 py-[4px] text-sm font-light mt-2   text-custom-primary rounded  ml-0">
                     Register Now
                   </button>
                 </div>
