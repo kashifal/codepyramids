@@ -5,14 +5,15 @@ const logo = require("../../../assets/kid-1.png");
 
 const Students = () => {
   return (
-    <div className=" w-full min-h-[50vh] px-4 md:px-6 xl:px-4 flex items-center justify-center mt-12 mb-12">
+    <div className="relative w-full min-h-[60vh] px-4 md:px-6 xl:px-4 flex items-center justify-center mt-12 mb-12">
       <div className="w-[1424px] mx-auto   h-full  flex items-center justify-between md:flex-row flex-col-reverse">
-        <div className=" w-6/12 h-full flex items-center justify-center mt-8 md:mt-0">
+        <div className="relative w-6/12 h-full flex items-center justify-center mt-8 md:mt-0">
           <img
-            className="max-w-[160px] md:max-w-[190px] lg:max-w-[240px]"
+            className="max-w-[160px] z-50 md:max-w-[190px] lg:max-w-[240px]"
             src={logo}
             alt=""
           />
+          <div className="absolute h-[300px] w-[300px] rounded  border-8 border-custom-primary"></div>
         </div>
         <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
           <p className="text-black font-light text-sm mt-2 ">

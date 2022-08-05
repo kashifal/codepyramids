@@ -5,14 +5,16 @@ const logo = require("../../../assets/hero-image-1.png");
 
 const Students = () => {
   return (
-    <div className=" w-full min-h-[50vh] px-4 md:px-6 xl:px-4 flex items-center justify-center mt-12">
+    <div className=" w-full min-h-[60vh] px-4 md:px-6 xl:px-4 flex items-center justify-center mt-12">
       <div className="w-[1424px] mx-auto   h-full  flex items-center justify-between md:flex-row flex-col-reverse">
-        <div className=" w-6/12 h-full flex items-center justify-center mt-8 md:mt-0">
+        <div className="relative w-6/12 h-full flex items-center justify-center mt-8 md:mt-0">
           <img
-            className="max-w-[200px] md:max-w-[250px] lg:max-w-[350px]"
+            className="z-40 max-w-[200px] md:max-w-[250px] lg:max-w-[350px]"
             src={logo}
             alt=""
           />
+          <div className="absolute hidden lg:block sudo h-[100px] w-[500px] bg-custom-primary left-0 "></div>
+          <div className="absolute hidden lg:block  h-[400px] left-0 top-52 w-[100px] bg-custom-primary"></div>
         </div>
         <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
           <p className="text-black font-light text-sm mt-2 ">

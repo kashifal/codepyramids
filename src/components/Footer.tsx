@@ -3,7 +3,7 @@ const logo = require("../assets/softpyramid.png");
 
 const Footer = () => {
   return (
-    <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[50vh] bg-custom-dark flex items-center justify-center flex-wrap">
+    <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[60vh] bg-custom-dark flex items-center justify-center flex-wrap">
       <div className="h-full  py-8 w-[1424px] mx-auto flex items-start justify-evenly lg:justify-between  flex-wrap gap-8">
         <div className="w-[270px] h-full text-white  1st">
           <svg
