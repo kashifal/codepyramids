@@ -7,8 +7,12 @@ const logo = require("../../../assets/benefits.png");
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[60vh] bg-custom-dark mt-8 flex items-center justify-center ">
-        <div className="w-[1424px] mx-auto   h-full   flex items-center justify-between md:flex-row flex-col-reverse">
+      <div className="relative overflow-hidden px-4 md:px-6 xl:px-4 w-full min-h-[70vh] bg-custom-dark mt-8 flex items-center justify-center ">
+        <div className="relative w-[1424px] mx-auto   h-full   flex items-center justify-between md:flex-row flex-col-reverse">
+          <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
+
+          <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-primary"></div>
+
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">
               Benefits of learning code
@@ -25,7 +29,7 @@ const Landing = () => {
               making your kids leaders.
             </p>
           </div>
-          <div className=" w-6/12 h-full flex items-center justify-center ">
+          <div className="relative w-6/12 h-full flex items-center justify-center ">
             <img
               className="max-w-[250px] md:max-w-[320px] lg:max-w-[430px]"
               src={logo}

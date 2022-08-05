@@ -31,7 +31,7 @@ const reviews = [
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative w-full min-h-[60vh] bg-[#f4f7fc] px-4 md:px-6 xl:px-4  flex items-center justify-center ">
+      <div className="relative w-full min-h-[70vh] bg-[#f4f7fc] px-4 md:px-6 xl:px-4  flex items-center justify-center ">
         <div className="w-[1424px] mx-auto py-6 h-full ">
           <h1 className="text-[28px] text-center -mt-2 md:text-[35px]  xl:text-[30px] text-black  font-bold leading-[32px] md:leading-[40px] xl:leading-[60px] ">
             Students Reviews About

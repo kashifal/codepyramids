@@ -59,7 +59,7 @@ const coursesData = [
 export default function App() {
   const images = new Array(6).fill({ url: image });
   return (
-    <div className=" max-w-[1424px] mx-auto min-h-[20vh] overflow-hidden flex items-center justify-center mt-12 ">
+    <div className="relative max-w-[1424px] mx-auto min-h-[40vh] overflow-hidden flex items-center justify-center mt-32 ">
       <div className="w-full  h-full ">
         <Swiper
           modules={[Navigation, Pagination]}
