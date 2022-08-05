@@ -3,9 +3,9 @@ const logo = require("../assets/softpyramid.png");
 
 const Footer = () => {
   return (
-    <div className="relative w-full min-h-[50vh] bg-custom-dark flex items-center justify-center flex-wrap">
-      <div className="h-full px-4 py-8 w-[1424px] mx-auto flex items-start justify-evenly lg:justify-between  flex-wrap gap-8">
-        <div className="w-[300px] h-full text-white  1st">
+    <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[50vh] bg-custom-dark flex items-center justify-center flex-wrap">
+      <div className="h-full  py-8 w-[1424px] mx-auto flex items-start justify-evenly lg:justify-between  flex-wrap gap-8">
+        <div className="w-[270px] h-full text-white  1st">
           <svg
             width="178"
             height="52"
@@ -67,22 +67,25 @@ const Footer = () => {
             <h1 className="font-black text-custom-primary">Phones:</h1>
             <div className="">
               <p className="mt-1">
-                Pakistan : <span className="font-light">(+92) 3246897397</span>
+                Pakistan :{" "}
+                <span className="font-light text-[14px]">(+92) 3246897397</span>
               </p>
               <p className="mt-1">
-                KSA : <span className="font-light">(+92) 3246897397</span>
+                KSA :{" "}
+                <span className="font-light text-[14px]">(+92) 3246897397</span>
               </p>
               <p className="mt-1">
                 US : <span className="font-light">(+92) 3246897397</span>
               </p>
               <p className="mt-1">
-                GB : <span className="font-light">(+92) 3246897397</span>
+                GB :{" "}
+                <span className="font-light text-[14px]">(+92) 3246897397</span>
               </p>
             </div>
           </div>
         </div>
         {/* hi here  */}
-        <div className="w-[300px] h-full text-white   1st">
+        <div className="w-[270px] h-full text-white   1st">
           <div className="">
             <h1 className="font-black text-custom-primary">Popular Courses:</h1>
             <div className="">
@@ -90,13 +93,15 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Web Development</span>
+                <span className="font-light text-[14px] ml-1">
+                  Web Development
+                </span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   Frontend Development
                 </span>
               </p>
@@ -104,7 +109,7 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   Backend Development
                 </span>
               </p>
@@ -112,7 +117,7 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   React JS Development
                 </span>
               </p>
@@ -120,7 +125,7 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   NodeJS Development
                 </span>
               </p>
@@ -128,7 +133,7 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   React Native Development
                 </span>
               </p>{" "}
@@ -136,7 +141,7 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   HTML && CSS Course
                 </span>
               </p>
@@ -144,7 +149,7 @@ const Footer = () => {
           </div>
         </div>
         {/* hi here  */}
-        <div className="w-[300px] h-full text-white   1st">
+        <div className="w-[270px] h-full text-white   1st">
           <div className="">
             <h1 className="font-black text-custom-primary">Company:</h1>
             <div className="">
@@ -152,37 +157,37 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Contact us</span>
+                <span className="font-light text-[14px] ml-1">Contact us</span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">About us</span>
+                <span className="font-light text-[14px] ml-1">About us</span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Careers</span>
+                <span className="font-light text-[14px] ml-1">Careers</span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Blogs</span>
+                <span className="font-light text-[14px] ml-1">Blogs</span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Ceo message</span>
+                <span className="font-light text-[14px] ml-1">Ceo message</span>
               </p>
             </div>
           </div>
         </div>
         {/* hi here  */}
-        <div className="w-[300px] h-full text-white   1st">
+        <div className="w-[270px] h-full text-white   1st">
           <div className="">
             <h1 className="font-black text-custom-primary">Policies:</h1>
             <div className="">
@@ -190,13 +195,15 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Privacy Policy</span>
+                <span className="font-light text-[14px] ml-1">
+                  Privacy Policy
+                </span>
               </p>
               <p className="">
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">
+                <span className="font-light text-[14px] ml-1">
                   Refund and Cancellation
                 </span>
               </p>
@@ -204,13 +211,10 @@ const Footer = () => {
                 <span className="text-custom-primary font-black text-2xl">
                   .
                 </span>{" "}
-                <span className="font-light text-md ml-1">Terms of Use</span>
-              </p>{" "}
-              <h2 className="font-black text-xl text-white t-logo mt-6">
-                <span className="font-light">
-                  Best Place to Learn How to Code Fast
+                <span className="font-light text-[14px] ml-1">
+                  Terms of Use
                 </span>
-              </h2>
+              </p>{" "}
             </div>
           </div>
         </div>

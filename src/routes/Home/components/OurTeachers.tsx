@@ -7,8 +7,8 @@ const logo = require("../../../assets/benefits.png");
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative w-full min-h-[60vh] bg-custom-dark mt-8 flex items-center justify-center ">
-        <div className="w-[1424px] mx-auto px-4  h-full   flex items-center justify-between md:flex-row flex-col-reverse">
+      <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[60vh] bg-custom-dark mt-8 flex items-center justify-center ">
+        <div className="w-[1424px] mx-auto   h-full   flex items-center justify-between md:flex-row flex-col-reverse">
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">
               Benefits of learning code

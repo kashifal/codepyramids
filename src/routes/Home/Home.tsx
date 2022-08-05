@@ -7,6 +7,7 @@ import Footer from "../../components/Footer";
 import MySlider from "../../components/MySlider";
 import OurTeachers from "./components/OurTeachers";
 import StudentReviews from "./components/StudentReviews";
+import Kid from "./components/Kid";
 
 const Home = () => {
   return (
@@ -14,8 +15,12 @@ const Home = () => {
       <Landing />
       <Students />
       <OurTeachers />
-
+      <MySlider />
       <StudentReviews />
+      <MySlider />
+      <Kid />
+      {/* <MySlider /> */}
+
       <Footer />
     </div>
   );
