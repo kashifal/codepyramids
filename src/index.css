@@ -8,36 +8,8 @@
   font-family: "Lato", sans-serif;
 }
 
-.text-primary {
-  color: #ff9a00;
-}
-.bg-primary {
-  background-color: #ff9a00;
-}
-
-.text-black {
-  color: #39393b;
-}
-.t-logo {
-  font-family: "Lato", sans-serif;
-
-  font-weight: 700;
-}
-
-.h-20 {
-  height: 72px;
-}
-.border-primary {
-  border-color: #ff6600;
-}
-
-.custom-height {
-  height: 620px;
-}
-
-.main {
-  font-family: Arial;
-  width: 500px;
-  display: block;
-  margin: 0 auto;
+.text {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d6304c;
 }
