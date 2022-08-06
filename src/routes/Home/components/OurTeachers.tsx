@@ -9,9 +9,9 @@ const Landing = () => {
     <Fragment>
       <div className="relative overflow-hidden px-4 md:px-6 xl:px-4 w-full min-h-[70vh] bg-custom-dark mt-8 flex items-center justify-center ">
         <div className="relative w-[1424px] mx-auto   h-full   flex items-center justify-between md:flex-row flex-col-reverse">
-          <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
+          <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
 
-          <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-primary"></div>
+          <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-pink"></div>
 
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">

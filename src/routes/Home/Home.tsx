@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import Landing from "./components/Landing";
 import Students from "./components/Students";
 import Reviews from "./components/Reviews";
-import Courses from "./components/Courses";
 import Footer from "../../components/Footer";
 import MySlider from "../../components/MySlider";
 import OurTeachers from "./components/OurTeachers";
@@ -15,10 +14,10 @@ const Home = () => {
       <Landing />
       <Students />
       <OurTeachers />
-      <MySlider />
+      <MySlider age="6" />
       <StudentReviews />
-      <MySlider />
-      <Text />
+      <MySlider age="10" />
+      <Text text="Learn from Market Experts" />
       <Kid />
       {/* <MySlider /> */}
 

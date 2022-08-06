@@ -13,7 +13,8 @@ const Students = () => {
             src={logo}
             alt=""
           />
-          <div className="absolute h-[300px] w-[300px] rounded  border-8 border-custom-primary"></div>
+          <div className="absolute hidden lg:block sudo h-[100px] w-[500px] bg-custom-pink left-0 "></div>
+          <div className="absolute hidden lg:block  h-[400px] left-0 top-52 w-[100px] bg-custom-pink"></div>
         </div>
         <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
           <p className="text-black font-light text-sm mt-2 ">
@@ -30,7 +31,7 @@ const Students = () => {
             to become the architect of their life.
           </p>
           <div className="mt-6 btns">
-            <button className="px-5 py-2   border-custom-dark bg-custom-dark text-white rounded">
+            <button className="px-5 py-2   border-custom-pink bg-custom-pink text-white rounded">
               Join for Free
             </button>
             {/* <button className="px-5 py-2   ml-2 bg-white text-custom-dark rounded">
