@@ -7,7 +7,7 @@ const logo = require("../../../assets/hero-image-0.png");
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative w-full min-h-[70vh] bg-custom-primary flex items-center justify-center ">
+      <div className="relative w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
         <div className="w-[1424px] mx-auto px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">
@@ -17,12 +17,14 @@ const Landing = () => {
               Best Online Programming
               <br />
               School For{" "}
-              <Typed
-                strings={["Kids.", "You.", "Everyone."]}
-                typeSpeed={70}
-                backSpeed={70}
-                loop
-              />{" "}
+              <span className="text-custom-pink">
+                <Typed
+                  strings={["Kids.", "You.", "Everyone."]}
+                  typeSpeed={70}
+                  backSpeed={70}
+                  loop
+                />{" "}
+              </span>
             </h1>
             <p className="text-center	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-normal  mt-6">
               We mentor the young learners to thrive in this new world- with the
@@ -31,7 +33,7 @@ const Landing = () => {
               making your kids leaders.
             </p>
             <div className="mt-6 btns">
-              <button className="px-5 py-2   border-custom-dark bg-custom-dark text-white rounded">
+              <button className="px-5 py-2    bg-custom-pink text-white rounded">
                 Courses
               </button>
               <button className="px-5 py-2   ml-2 bg-white text-custom-dark rounded">

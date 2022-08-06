@@ -5,8 +5,8 @@ import Home from "./routes/Home/Home";
 import Login from "./routes/Registeration/Login";
 import Register from "./routes/Registeration/Register";
 import ForgetPassword from "./routes/Registeration/ForgetPassword";
-import Courses from "./routes/Courses/Courses";
 import { Route, Routes, Navigate } from "react-router-dom";
+import AllCourses from "./routes/Courses/AllCourses";
 
 const App = () => {
   // const isLoggin = useSelector((state) => console.log(state));
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/forget-password" element={<ForgetPassword />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses" element={<AllCourses />} />
       </Routes>
     </div>
   );
