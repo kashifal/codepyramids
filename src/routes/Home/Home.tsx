@@ -7,12 +7,11 @@ import MySlider from "../../components/MySlider";
 import OurTeachers from "./components/OurTeachers";
 import StudentReviews from "./components/StudentReviews";
 import Kid from "./components/Kid";
+import ScheduleClassBtn from "../../components/SheduleClassBtn";
 import Text from "../../components/Text";
-import OneCourse from "../OneCourse/OneCourse";
 const Home = () => {
   return (
     <Fragment>
-      <OneCourse />
       <Landing />
       <Students />
       <OurTeachers />
@@ -21,6 +20,7 @@ const Home = () => {
       <MySlider age="10" />
       <Text text="Learn from Market Experts" />
       <Kid />
+      <ScheduleClassBtn />
       {/* <MySlider /> */}
 
       <Footer />

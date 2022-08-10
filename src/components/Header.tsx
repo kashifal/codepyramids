@@ -9,9 +9,9 @@ import IconButton from "@mui/material/IconButton";
 const Header = () => {
   const links: { title: string; link: string }[] = [
     { title: "Home", link: "/" },
-    { title: "Courses", link: "/" },
-    { title: "Internship", link: "/" },
-    { title: "Projects", link: "/" },
+    { title: "Courses", link: "/courses" },
+    { title: "Internship", link: "/internship" },
+    { title: "Projects", link: "/projects" },
     // { title: "Report", link: "/" },
   ];
   return (
@@ -19,9 +19,11 @@ const Header = () => {
       <div className="z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[70px] flex items-center justify-center">
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
-            <h2 className="font-black text-2xl text-custom-dark t-logo">
-              Code<span className="text-custom-primary">Pyramids.</span>
-            </h2>
+            <Link to="/">
+              <h2 className="font-black text-2xl text-custom-dark t-logo">
+                Code<span className="text-custom-primary">Pyramids.</span>
+              </h2>
+            </Link>
 
             <div className="border-2  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
               <div className="absolute flex items-center justify-between h-full">
@@ -46,20 +48,24 @@ const Header = () => {
           </div>
           <div className="w-6/12 items-center justify-end hidden lg:flex">
             {links.map((link) => (
-              <button
-                key={link.title}
-                className="text-custom-dark px-4 xl:px-4 text-base py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary"
-              >
-                {link.title}
-              </button>
+              <Link key={link.title} to={link.link}>
+                <button className="text-custom-dark px-4 xl:px-4 text-base py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary">
+                  {link.title}
+                </button>
+              </Link>
             ))}
-            <Button
+            <Link to="/register">
+              <button className="normal-case font-light 	bg-custom-primary px-4 py-2 text-white">
+                Register
+              </button>
+            </Link>
+            {/* <Button
               component={Link}
               to="/register"
               className="normal-case font-light	bg-custom-primary px-4 py-2 text-white"
             >
               Register
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

@@ -13,3 +13,6 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #de00a5;
 }
+.TextField-without-border-radius fieldset {
+  border-radius: 0;
+}

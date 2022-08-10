@@ -55,7 +55,7 @@ const Landing = () => {
                       <h3 className="font-bold">{item.name}</h3>
                       <p className="font-light text-sm">
                         Course:{" "}
-                        <span className="p-1 rounded-sm bg-custom-primary text-white">
+                        <span className="p-1  bg-custom-primary text-white">
                           {item.course}
                         </span>
                       </p>
