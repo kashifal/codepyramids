@@ -15,8 +15,7 @@ const OneCourse = () => {
               on demand one-o-one classes
             </p>
             <h1 className="text-[28px] md:text-[35px] text-center	md:text-left xl:text-[50px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
-              Become Frontend Engineer
-              <br />
+              Become Frontend Engineer {/* <br /> */}
               in 3 months
             </h1>
             <p className="text-center	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-normal  mt-6">

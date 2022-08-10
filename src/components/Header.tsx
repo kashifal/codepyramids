@@ -16,11 +16,11 @@ const Header = () => {
   ];
   return (
     <Fragment>
-      <div className="z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[70px] flex items-center justify-center">
+      <div className="z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[64px] flex items-center justify-center">
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
-              <h2 className="font-black text-2xl text-custom-dark t-logo">
+              <h2 className="font-black text-xl text-custom-dark t-logo">
                 Code<span className="text-custom-primary">Pyramids.</span>
               </h2>
             </Link>
@@ -49,13 +49,13 @@ const Header = () => {
           <div className="w-6/12 items-center justify-end hidden lg:flex">
             {links.map((link) => (
               <Link key={link.title} to={link.link}>
-                <button className="text-custom-dark px-4 xl:px-4 text-base py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary">
+                <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary">
                   {link.title}
                 </button>
               </Link>
             ))}
             <Link to="/register">
-              <button className="normal-case font-light 	bg-custom-primary px-4 py-2 text-white">
+              <button className="normal-case font-light text-sm	bg-custom-primary px-4 py-2 text-white">
                 Register
               </button>
             </Link>
