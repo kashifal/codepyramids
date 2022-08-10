@@ -8,9 +8,11 @@ import OurTeachers from "./components/OurTeachers";
 import StudentReviews from "./components/StudentReviews";
 import Kid from "./components/Kid";
 import Text from "../../components/Text";
+import OneCourse from "../OneCourse/OneCourse";
 const Home = () => {
   return (
     <Fragment>
+      <OneCourse />
       <Landing />
       <Students />
       <OurTeachers />
