@@ -10,7 +10,7 @@ const Header = () => {
   const links: { title: string; link: string }[] = [
     { title: "Home", link: "/" },
     { title: "Courses", link: "/courses" },
-    { title: "Internship", link: "/internship" },
+    { title: "Scholarship", link: "/scholarship" },
     { title: "Projects", link: "/projects" },
     // { title: "Report", link: "/" },
   ];
@@ -59,6 +59,7 @@ const Header = () => {
                 Register
               </button>
             </Link>
+
             {/* <Button
               component={Link}
               to="/register"

@@ -41,7 +41,7 @@ const Landing = () => {
             {reviews.map((item, index) => (
               <div
                 key={index}
-                className=" min-h-32 lg:max-w-[350px] xl:max-w-[600px] rounded-xl p-4 border-2"
+                className=" min-h-32 lg:max-w-[350px] xl:max-w-[600px]  p-4 border-2"
               >
                 <div className="flex items-center">
                   <div className="w-full flex">
