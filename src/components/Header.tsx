@@ -16,7 +16,7 @@ const Header = () => {
   ];
   return (
     <Fragment>
-      <div className="shadow z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[70px] flex items-center justify-center">
+      <div className="z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[70px] flex items-center justify-center">
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <h2 className="font-black text-2xl text-custom-dark t-logo">

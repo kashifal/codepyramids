@@ -7,6 +7,7 @@ import Register from "./routes/Registeration/Register";
 import ForgetPassword from "./routes/Registeration/ForgetPassword";
 import { Route, Routes, Navigate } from "react-router-dom";
 import AllCourses from "./routes/Courses/AllCourses";
+import OneCourse from "./routes/OneCourse/OneCourse";
 
 const App = () => {
   // const isLoggin = useSelector((state) => console.log(state));
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/forget-password" element={<ForgetPassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/courses" element={<AllCourses />} />
+        <Route path="/course/:id" element={<OneCourse />} />
       </Routes>
     </div>
   );
