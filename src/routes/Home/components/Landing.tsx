@@ -1,5 +1,6 @@
 import Typed from "react-typed";
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 // import hero from "../../assets/hero-image.png";
 // import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 const logo = require("../../../assets/hero-image-0.png");
@@ -33,12 +34,16 @@ const Landing = () => {
               making your kids leaders.
             </p>
             <div className="mt-6 btns">
-              <button className="px-5 py-2    bg-custom-pink text-white rounded">
-                Courses
-              </button>
-              <button className="px-5 py-2   ml-2 bg-white text-custom-dark rounded">
-                Register
-              </button>
+              <Link to="/courses">
+                <button className="px-5 py-2    bg-custom-pink text-white ">
+                  Courses
+                </button>
+              </Link>
+              <Link to="/register">
+                <button className="px-5 py-2   ml-2 bg-white text-custom-dark ">
+                  Register
+                </button>
+              </Link>
             </div>
           </div>
           <div className="relative w-6/12 h-full flex items-center justify-center ">

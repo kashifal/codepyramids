@@ -38,7 +38,7 @@ export default function ForgetPassword() {
           label="Enter registered email adress"
           placeholder="Enter registered email adress"
           fullWidth
-          className="mt-4  w-[332px] h-[48px]"
+          className="mt-4  w-[332px] h-[48px] TextField-without-border-radius"
         />
         {/* <TextField
           type="password"
@@ -56,6 +56,7 @@ export default function ForgetPassword() {
           </Typography>
         </Box>
         <Button
+          style={{ borderRadius: 0 }}
           startIcon={<LoginIcon />}
           className="bg-custom-primary normal-case	mt-4 text-white  w-[332px] h-[48px]"
         >

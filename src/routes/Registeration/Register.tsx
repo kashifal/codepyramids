@@ -14,6 +14,7 @@ export default function Register() {
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
         <Button
+          style={{ borderRadius: 0 }}
           variant="contained"
           color="primary"
           startIcon={<Google />}
@@ -22,6 +23,7 @@ export default function Register() {
           Register with Google
         </Button>
         <Button
+          style={{ borderRadius: 0 }}
           startIcon={<Facebook />}
           className="normal-case	bg-custom-dark text-white mt-2  w-[332px] h-[48px]"
         >
@@ -35,28 +37,28 @@ export default function Register() {
           label="First name"
           placeholder="First name"
           fullWidth
-          className="mt-4  w-[332px] h-[48px]"
+          className="mt-4  w-[332px] h-[48px] TextField-without-border-radius"
         />
         <TextField
           type="name"
           label="Last name"
           placeholder="Last name"
           fullWidth
-          className="mt-4  w-[332px] h-[48px]"
+          className="mt-4  w-[332px] h-[48px] TextField-without-border-radius"
         />
         <TextField
           type="email"
           label="Enter email adress"
           placeholder="Enter email adress"
           fullWidth
-          className="mt-4  w-[332px] h-[48px]"
+          className="mt-4  w-[332px] h-[48px] TextField-without-border-radius"
         />
         <TextField
           type="password"
           label="Enter password"
           placeholder="Enter Password"
           fullWidth
-          className="mt-4  w-[332px] h-[48px]"
+          className="mt-4  w-[332px] h-[48px] TextField-without-border-radius"
         />
         <Box className="text-left mt-4 w-[332px] h-[32px]  flex items-center justify-start">
           <Typography className="text-left " variant="subtitle2">
@@ -67,6 +69,7 @@ export default function Register() {
           </Typography>
         </Box>
         <Button
+          style={{ borderRadius: 0 }}
           startIcon={<LoginIcon />}
           className="bg-custom-primary normal-case	 text-white mt-2  w-[332px] h-[48px]"
         >
