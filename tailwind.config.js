@@ -6,8 +6,8 @@ module.exports = {
     extend: {
       colors: {
         "custom-dark": "#000838",
-        "custom-primary": "#FF9A00",
-        "custom-pink": "#FF9A00",
+        "custom-primary": "#1FAB89",
+        "custom-pink": "#1FAB89",
       },
     },
   },
