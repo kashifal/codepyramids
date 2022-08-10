@@ -8,8 +8,8 @@ const Landing = ({ text }: any) => {
   return (
     <Fragment>
       <div className="relative w-full min-h-[10vh]  flex items-center justify-center ">
-        <div className="relative w-[1424px] mx-auto  px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
-          <h1 className="text lg:text-[110px] md:text-[70px] text-[40px] font-black">
+        <div className="relative w-[1424px] mx-auto  px-4  h-full  flex items-center justify-center md:flex-row flex-col-reverse">
+          <h1 className="text lg:text-[70px] md:text-[50px] text-[40px] text-center font-black">
             {text} <br />
           </h1>
           <div className="absolute w-[50%] right-0 h-[50%] top-0 "></div>

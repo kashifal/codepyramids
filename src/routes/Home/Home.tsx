@@ -9,6 +9,7 @@ import StudentReviews from "./components/StudentReviews";
 import Kid from "./components/Kid";
 import ScheduleClassBtn from "../../components/SheduleClassBtn";
 import Text from "../../components/Text";
+import Companies from "../../components/Companies";
 const Home = () => {
   return (
     <Fragment>
@@ -19,6 +20,7 @@ const Home = () => {
       <StudentReviews />
       <MySlider age="10" />
       <Text text="Learn from Market Experts" />
+      <Companies />
       <Kid />
       <ScheduleClassBtn />
       {/* <MySlider /> */}

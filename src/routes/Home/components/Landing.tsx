@@ -49,7 +49,7 @@ const Landing = () => {
           <div className="relative w-6/12 h-full flex items-center justify-center ">
             <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
 
-            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-pink"></div>
+            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
 
             <img
               className="max-w-[250px] z-40 md:max-w-[320px] lg:max-w-[430px]"
