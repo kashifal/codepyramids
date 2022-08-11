@@ -5,13 +5,18 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
+import { HomeMaxRounded } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
+import { Favorite } from "@mui/icons-material";
+import { HomeRounded } from "@material-ui/icons";
 const Header = () => {
-  const links: { title: string; link: string }[] = [
+  const links: { title: string | any; link: string }[] = [
     { title: "Home", link: "/" },
     { title: "Courses", link: "/courses" },
     { title: "Scholarship", link: "/scholarship" },
     { title: "Projects", link: "/projects" },
+    // { title: <Favorite />, link: "/projects" },
     // { title: "Report", link: "/" },
   ];
   return (
@@ -49,7 +54,7 @@ const Header = () => {
           <div className="w-6/12 items-center justify-end hidden lg:flex">
             {links.map((link) => (
               <Link key={link.title} to={link.link}>
-                <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary">
+                <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">
                   {link.title}
                 </button>
               </Link>

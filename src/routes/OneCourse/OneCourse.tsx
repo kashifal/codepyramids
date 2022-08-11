@@ -4,7 +4,7 @@ import ControlledAccordions from "../../components/Accordion";
 import Footer from "../../components/Footer";
 import Instructor from "./components/Instructor";
 import Text from "../../components/Text";
-import Reviews from "../Home/components/StudentReviews";
+import CoureReviews from "./components/CourseReviews";
 const HeroCourse = () => {
   return (
     <Fragment>
@@ -17,10 +17,11 @@ const HeroCourse = () => {
       <Instructor />
       <br />
       <br />
-      <Text text="People's with great vision" />
+      <Text text="💖 Loved by students !!!" />
       <br />
       <br />
-      <Reviews />
+      <CoureReviews />
+      <br />
       <Footer />
     </Fragment>
   );

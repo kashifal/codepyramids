@@ -73,10 +73,8 @@ export default function App({ age }: any) {
     <Fragment>
       <div className="relative max-w-[1424px] mx-auto mt-20">
         <h1 className=" text-[30px] md:text-[32px] font-bold text-custom-dark text-left">
-          <span className="text-custom-primary text-[30px] font-bold">.</span>
-          {"  "}Top courses for age{" "}
-          <span className="font-black text-custom-primary">{age}+</span> kids{" "}
-          <br />
+          {/* <span className="text-custom-primary text-[30px] font-bold">.</span> */}
+          <span className="font-black text-custom-primary">{age}</span> <br />
         </h1>
       </div>
       <div className="relative max-w-[1424px] mx-auto min-h-[40vh] overflow-hidden flex items-center justify-center mt-4 ">
@@ -119,7 +117,7 @@ export default function App({ age }: any) {
           >
             {coursesData.map((item, index) => (
               <SwiperSlide key={index} className="swiper-slide">
-                <div className="absolute z-40 text-sm font-medium text-white min-w-16 px-2 h-6 top-2 left-2 flex items-center justify-center bg-[rgba(222,0,165,.8)] border-2 border-white">
+                <div className="absolute z-40 text-sm font-medium text-white min-w-16 px-2 h-6 top-2 left-2 flex items-center justify-center bg-custom-primary ">
                   PKR 4500
                 </div>
                 <div className="relative h-full w-full flex justify-between flex-col card-data">

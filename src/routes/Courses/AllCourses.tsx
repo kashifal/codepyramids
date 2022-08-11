@@ -7,12 +7,14 @@ import SouthIcon from "@mui/icons-material/South";
 import MySlider from "../../components/MySlider";
 import Text from "../../components/Text";
 import Footer from "../../components/Footer";
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
+
 const logo = require("../../assets/hero-image.png");
 
 const AllCourses = () => {
   return (
     <Fragment>
-      <div className="relative overflow-hidden w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
+      <div className="relative overflow-hidden w-full min-h-[60vh] bg-custom-dark flex items-center justify-center ">
         {/* <div className="absolute hidden lg:block  h-[200px] w-[900px] mt-4 bg-custom-dark top-[79%]"></div> */}
 
         <div className="w-[1424px]  mx-auto px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
@@ -21,12 +23,27 @@ const AllCourses = () => {
               All Courses are well designed
             </p> */}
 
-            <h1 className="text-[28px] md:text-[35px] text-center	md:text-left xl:text-[74px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[70px] ">
+            <h1 className="text-[28px] md:text-[35px] text-center	md:text-left xl:text-[70px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[75px] ">
               Take Your Favourite
               <br />
               Course for Free <br />
               <span className="font-light text-custom-primary">
-                Explore Courses <SouthIcon />
+                Learn{" "}
+                <span className="text-custom-pink">
+                  <Typed
+                    strings={[
+                      `Php`,
+                      "NodeJS",
+                      "HTML CSS",
+                      "Typescript",
+                      "Javascript",
+                      "Free !!!",
+                    ]}
+                    typeSpeed={100}
+                    backSpeed={100}
+                    loop
+                  />{" "}
+                </span>
               </span>
             </h1>
           </div>
@@ -43,10 +60,10 @@ const AllCourses = () => {
           </div>
         </div>
       </div>
-      <MySlider age="6" />
-      <Text text="Learn Anywhere, Learn Anytime" />
-      <MySlider age="10" />
-      <MySlider age="17" />
+      <MySlider age="Featured Programming courses" />
+      <Text text="On Demand, one-o-one classes" />
+      <MySlider age="Featured Frontend Web Development courses" />
+      <MySlider age="Featured Backend Web Development courses" />
       <Footer />
     </Fragment>
   );
