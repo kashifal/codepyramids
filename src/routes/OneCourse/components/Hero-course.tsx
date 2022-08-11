@@ -24,10 +24,13 @@ const OneCourse = () => {
               to become the architect of their life. We are the enterpeneurs
               making your kids leaders.
             </p>
-            <div className="mt-6 btns">
+            <h1 className="mt-4 text-2xl text-white font-black  p-1">
+              PKR 12000
+            </h1>
+            <div className="mt-4 btns">
               <Link to="/courses">
                 <button className="px-5 py-2    bg-custom-pink text-white ">
-                  <RocketLaunchIcon /> Take this course
+                  <RocketLaunchIcon /> Buy this course
                 </button>
               </Link>
               <Link to="/register">
