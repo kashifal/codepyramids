@@ -4,6 +4,8 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
+
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function ControlledAccordions() {
@@ -32,10 +34,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 1
+                <RocketLaunchIcon /> Module 1
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 Introduction to computer science
@@ -84,10 +86,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 2
+                <RocketLaunchIcon /> Module 2
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 Introduction to Web Developmet
@@ -136,10 +138,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 3
+                <RocketLaunchIcon /> Module 3
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 What Programming we are gonna use
@@ -188,10 +190,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 4
+                <RocketLaunchIcon /> Module 4
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 All about Html,css and Js
@@ -240,10 +242,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 5
+                <RocketLaunchIcon /> Module 5
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 CSS framework tailwind css
@@ -292,10 +294,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 6
+                <RocketLaunchIcon /> Module 6
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 Let's Build 3 projects
@@ -344,10 +346,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 7
+                <RocketLaunchIcon /> Module 7
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 Advance concepts of Javascript
@@ -396,10 +398,10 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-dark font-medium"
+                className="text-custom-primary font-medium"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
-                Module 8
+                <RocketLaunchIcon /> Module 8
               </Typography>
               <Typography className="text-custom-dark font-bold">
                 ReactJS | Game changer

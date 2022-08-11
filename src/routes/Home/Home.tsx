@@ -16,9 +16,9 @@ const Home = () => {
       <Landing />
       <Students />
       <OurTeachers />
-      <MySlider age="6" />
+      <MySlider age="Featured Web Development Courses" />
       <StudentReviews />
-      <MySlider age="10" />
+      {/* <MySlider age="10" /> */}
       <Text text="Learn from Market Experts" />
       <Companies />
       <Kid />
