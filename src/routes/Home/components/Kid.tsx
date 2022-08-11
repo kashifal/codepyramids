@@ -24,7 +24,7 @@ const Students = () => {
           <h1 className="text-[28px] md:text-[35px] 	 text-center	md:text-left xl:text-[50px] text-black  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
             Take the next step,
             <br />
-            with codepyramids.
+            with eduqode.
           </h1>
           <p className="text-center	md:text-left text-[14px] md:text-[16px] text-black leading-[19px] md:leading-[24px] font-normal  mt-6">
             We mentor the young learners to thrive in this new world- with the
