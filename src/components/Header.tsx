@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from "./Sidebar";
+import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
@@ -32,10 +30,9 @@ const Header = () => {
 
             <div className="border-2  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
               <div className="absolute flex items-center justify-between h-full">
-                <FontAwesomeIcon
-                  className="ml-4 text-slate-500"
-                  icon={faSearch}
-                />
+                <div className="ml-4 text-slate-500">
+                  <SearchIcon />
+                </div>
               </div>
               <input
                 className=" rounded-full px-4 py-2 w-60 outline-none xl:w-80 ml-10 "
