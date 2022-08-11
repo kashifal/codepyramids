@@ -26,7 +26,7 @@ const Header = () => {
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
               <h2 className="font-black text-xl text-custom-dark t-logo">
-                Code<span className="text-custom-primary">Pyramids.</span>
+                edu<span className="text-custom-primary">qode.</span>
               </h2>
             </Link>
 
