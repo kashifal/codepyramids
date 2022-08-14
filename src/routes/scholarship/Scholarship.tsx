@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import Footer from "../../components/Footer";
 
 export default function Scholarship() {
   return (
-    <div>Scholarship</div>
+    <Fragment>
+        
+        <Footer />
+    </Fragment>
   )
 }
