@@ -44,12 +44,8 @@ const OneCourse = () => {
             <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
 
             <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
-
-            <img
-              className="max-w-[350px] z-40 md:max-w-[320px] lg:max-w-[430px] border-4 border-custom-primary"
-              src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
-              alt=""
-            />
+            <iframe className="max-w-[350px] z-40 md:max-w-[320px] lg:max-w-[430px] border-4 border-custom-primary" width="560" height="315" src="https://www.youtube.com/embed/8UVNT4wvIGY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+             
           </div>
         </div>
       </div>

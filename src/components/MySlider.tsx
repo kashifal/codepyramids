@@ -116,7 +116,7 @@ export default function App({ age }: any) {
             }}
           >
             {coursesData.map((item, index) => (
-              <SwiperSlide key={index} className="swiper-slide">
+              <SwiperSlide key={index} className="swiper-slide border-4 border-custom-primary">
                 <div className="absolute z-40 text-sm font-medium text-white min-w-16 px-2 h-6 top-2 left-2 flex items-center justify-center bg-custom-primary ">
                   PKR 4500
                 </div>
@@ -137,7 +137,7 @@ export default function App({ age }: any) {
                       nemo commodi molestiae.
                     </p>
                     <Link to={`/course/${item.id}`}>
-                      <button className="px-2 py-[4px] text-sm font-light mt-2 border-2 border-custom-primary   text-custom-primary ml-0">
+                      <button className="px-2 py-[4px] text-sm font-light mt-2 border-2 border-custom-primary w-full  hover:bg-custom-primary hover:text-white transition-all   text-custom-primary ml-0">
                         Register Now
                       </button>
                     </Link>

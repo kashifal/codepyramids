@@ -12,14 +12,14 @@ const Header = () => {
   const links: { title: string | any; link: string }[] = [
     { title: "Home", link: "/" },
     { title: "Courses", link: "/courses" },
-    { title: "Scholarship", link: "/scholarship" },
-    { title: "Projects", link: "/projects" },
+    { title: "Success Stories", link: "/scholarship" },
+    { title: "Challenge", link: "/projects" },
     // { title: <Favorite />, link: "/projects" },
     // { title: "Report", link: "/" },
   ];
   return (
     <Fragment>
-      <div className="z-50 max-w-[1624px] mx-auto px-4 md:px-6 xl:px-4  h-[64px] flex items-center justify-center">
+      <div style={{backgroundColor:'rgba(255,255,255,0.4)'}} className="z-50  transition-all shadow-sm w-full backdrop-blur-lg mx-auto px-4 md:px-6 xl:px-4 fixed top-0  h-[64px] flex items-center justify-center">
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
@@ -28,14 +28,15 @@ const Header = () => {
               </h2>
             </Link>
 
-            <div className="border-2  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
+            <div style={{backgroundColor:'rgba(255,255,255,0.7)'}} className="border-2  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
               <div className="absolute flex items-center justify-between h-full">
                 <div className="ml-4 text-slate-500">
                   <SearchIcon />
                 </div>
               </div>
               <input
-                className=" rounded-full px-4 py-2 w-60 outline-none xl:w-80 ml-10 "
+              
+                className="bg-transparent rounded-full px-4 py-2 w-60 outline-none xl:w-80 ml-10 "
                 type="text"
                 placeholder="Search for the best"
                 name=""
@@ -48,7 +49,7 @@ const Header = () => {
               <Sidebar />
             </span>
           </div>
-          <div className="w-6/12 items-center justify-end hidden lg:flex">
+          <div className="w-6/12 items-center justify-end hidden gap-x-4 lg:flex">
             {links.map((link) => (
               <Link key={link.title} to={link.link}>
                 <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">

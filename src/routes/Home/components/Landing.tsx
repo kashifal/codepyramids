@@ -8,7 +8,7 @@ const logo = require("../../../assets/hero-image-0.png");
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative overflow-hidden w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
+      <div className="relative  mt-[64px] overflow-hidden w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
         <div className="w-[1424px] mx-auto px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">

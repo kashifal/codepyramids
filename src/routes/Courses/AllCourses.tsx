@@ -14,7 +14,7 @@ const logo = require("../../assets/hero-image.png");
 const AllCourses = () => {
   return (
     <Fragment>
-      <div className="relative overflow-hidden w-full min-h-[60vh] bg-custom-dark flex items-center justify-center ">
+      <div className="relative  mt-[64px] overflow-hidden w-full min-h-[60vh] bg-custom-dark flex items-center justify-center ">
         {/* <div className="absolute hidden lg:block  h-[200px] w-[900px] mt-4 bg-custom-dark top-[79%]"></div> */}
 
         <div className="w-[1424px]  mx-auto px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
