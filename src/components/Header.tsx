@@ -28,7 +28,7 @@ const Header = () => {
               </h2>
             </Link>
 
-            <div style={{backgroundColor:'rgba(255,255,255,0.7)'}} className="border-2  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
+            <div style={{backgroundColor:'rgba(255,255,255,0.7)'}} className="border-2 border-gray-100  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
               <div className="absolute flex items-center justify-between h-full">
                 <div className="ml-4 text-slate-500">
                   <SearchIcon />

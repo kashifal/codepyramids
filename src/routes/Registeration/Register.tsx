@@ -9,7 +9,7 @@ const logo = require("../../assets/hero-image-1.png");
 
 export default function Register() {
   return (
-    <Box className="relative w-[100%] min-h-[90vh]  flex items-center justify-center">
+    <Box className="relative  mt-[64px] w-[100%] min-h-[90vh]  flex items-center justify-center">
       <div className="absolute w-[100%]  h-[5px] bg-custom-primary left-0 top-0"></div>
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
