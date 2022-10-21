@@ -1,5 +1,6 @@
 import Typed from "react-typed";
 import React, { Fragment } from "react";
+import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 // import hero from "../../assets/hero-image.png";
 // import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
@@ -35,14 +36,14 @@ const Landing = () => {
             </p>
             <div className="mt-6 btns">
               <Link to="/courses">
-                <button className="px-5 py-2    bg-custom-pink text-white ">
+                <Button className="px-5 py-2  normal-case  rounded-none   bg-custom-pink text-white ">
                   Courses
-                </button>
+                </Button>
               </Link>
               <Link to="/register">
-                <button className="px-5 py-2   ml-2 bg-white text-custom-dark ">
+                <Button className="px-5 py-2 rounded-none  normal-case  ml-2 bg-white text-custom-dark ">
                   Register
-                </button>
+                </Button>
               </Link>
             </div>
           </div>

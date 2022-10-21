@@ -57,19 +57,19 @@ const Header = () => {
                 </button>
               </Link>
             ))}
-            <Link to="/register">
+            {/* <Link to="/register">
               <button className="normal-case font-light text-sm	bg-custom-primary px-4 py-2 text-white">
                 Register
               </button>
-            </Link>
+            </Link> */}
 
-            {/* <Button
+            <Button
               component={Link}
               to="/register"
-              className="normal-case font-light	bg-custom-primary px-4 py-2 text-white"
+              className="normal-case rounded-none font-light text-sm	bg-custom-primary px-4 py-2 text-white"
             >
               Register
-            </Button> */}
+            </Button>
           </div>
         </div>
       </div>

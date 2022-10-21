@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const logo = require("../../../assets/hero-image-1.png");
 
@@ -33,9 +34,9 @@ const Students = () => {
           </p>
           <div className="mt-6 btns">
             <Link to="/internship">
-              <button className="px-5 py-2   border-custom-pink bg-custom-pink text-white ">
-                Get Internship
-              </button>
+              <Button className="px-5 py-2 normal-case rounded-none  border-custom-pink bg-custom-pink text-white ">
+                Our Teachers
+              </Button>
             </Link>
             {/* <button className="px-5 py-2   ml-2 bg-white text-custom-dark rounded">
               Projects

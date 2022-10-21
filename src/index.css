@@ -16,6 +16,6 @@
 .TextField-without-border-radius fieldset {
   border-radius: 0;
 }
-.fav:nth-child(5) {
+.fav:nth-child(2) {
   color: red;
 }
