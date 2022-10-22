@@ -7,7 +7,8 @@ import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import { HomeMaxRounded } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
 import { Favorite } from "@mui/icons-material";
-import { HomeRounded } from "@material-ui/icons";
+import { HomeRounded } from "@material-ui/icons"; 
+import logo from '../assets/logo.png';
 const Header = () => {
   const links: { title: string | any; link: string }[] = [
     { title: "Home", link: "/" },
@@ -23,8 +24,8 @@ const Header = () => {
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
-              <h2 className="font-medium text-xl text-custom-pink t-logo">
-                edu<span style={{color:'#2ea2db'}}>q</span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
+              <h2 className="font-medium text-xl text-custom-pink t-logo flex items-baseline">
+                edu<span style={{color:'#2ea2db'}}><img className="w-4" src={logo} alt="eduqode" /> </span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
               </h2>
             </Link>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const logo = require("../assets/softpyramid.png");
+import logo from '../assets/logo1.png';
 
 const Footer = () => {
   return (
@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="h-full  py-8 w-[1424px] mx-auto flex items-start justify-evenly lg:justify-between  flex-wrap gap-8">
         <div className="w-[270px] h-full text-white  1st">
         <Link to="/">
-              <h2 className="font-normal text-2xl text-white t-logo">
-                edu<span style={{color:'#2ea2db'}}>q</span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
+              <h2 className="font-normal text-2xl text-white t-logo items-baseline flex">
+                edu<span style={{color:'#2ea2db'}}><img className="w-4" src={logo} alt="eduqode" /></span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
               </h2>
             </Link>
 
