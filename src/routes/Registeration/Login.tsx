@@ -13,22 +13,18 @@ export default function Login() {
       <div className="absolute w-[100%]  h-[5px] bg-custom-primary left-0 top-0"></div>
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
-        <Button
-          style={{ borderRadius: 0 }}
-          variant="contained"
-          color="primary"
-          startIcon={<Google />}
-          className="normal-case	  w-[332px] h-[48px]"
+      <button
+          style={{ borderRadius: 0 }}  
+          className="  text-sm normal-case flex items-center justify-center gap-x-2	 w-[332px] h-[48px] bg-rose-700 text-white"
         >
-          Login with Google
-        </Button>
-        <Button
-          style={{ borderRadius: 0 }}
-          startIcon={<Facebook />}
-          className="normal-case	bg-custom-dark text-white mt-2  w-[332px] h-[48px]"
+          <Google fontSize="inherit" /> Register with Google
+        </button>
+        <button
+          style={{ borderRadius: 0 }}  
+          className="text-sm  normal-case flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-blue-700 text-white"
         >
-          Login with Facebook
-        </Button>
+          <Facebook fontSize="inherit" /> Register with Facebook
+        </button>
         <Divider className="mt-4  w-[332px]  flex items-center justify-center">
           <Chip label="or" />
         </Divider>
@@ -54,13 +50,12 @@ export default function Login() {
             </Link>
           </Typography>
         </Box>
-        <Button
-          style={{ borderRadius: 0 }}
-          startIcon={<LoginIcon />}
-          className="bg-custom-primary normal-case	 text-white mt-2  w-[332px] h-[48px]"
+        <button
+          style={{ borderRadius: 0 }}  
+          className=" normal-case text-sm flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
         >
-          Login now
-        </Button>
+           <LoginIcon fontSize="inherit" /> Login 
+        </button>
         <Box className="text-left mt-4 w-[332px] h-[32px]  flex items-center justify-start">
           <Typography className="text-left " variant="subtitle2">
             Forget password,{" "}

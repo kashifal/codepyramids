@@ -55,13 +55,12 @@ export default function ForgetPassword() {
             </Link>
           </Typography>
         </Box>
-        <Button
-          style={{ borderRadius: 0 }}
-          startIcon={<LoginIcon />}
-          className="bg-custom-primary normal-case	mt-4 text-white  w-[332px] h-[48px]"
+        <button
+          style={{ borderRadius: 0 }}  
+          className=" normal-case flex text-sm items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
         >
-          Send password
-        </Button>
+           <LoginIcon fontSize="inherit" /> Send me Password 
+        </button>
         {/* <Box className="text-left mt-4 w-[332px] h-[32px]  flex items-center justify-start">
           <Typography className="text-left " variant="subtitle2">
             Forget password,{" "}

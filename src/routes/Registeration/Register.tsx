@@ -13,23 +13,20 @@ export default function Register() {
       <div className="absolute w-[100%]  h-[5px] bg-custom-primary left-0 top-0"></div>
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
-        <Button
-          style={{ borderRadius: 0 }}
-          variant="contained"
-          color="primary"
-          startIcon={<Google />}
-          className=" normal-case	 w-[332px] h-[48px]"
+        <button
+          style={{ borderRadius: 0 }}  
+          className="text-sm  normal-case flex items-center justify-center gap-x-2	 w-[332px] h-[48px] bg-rose-700 text-white"
         >
-          Register with Google
-        </Button>
-        <Button
-          style={{ borderRadius: 0 }}
-          startIcon={<Facebook />}
-          className="normal-case	bg-custom-dark text-white mt-2  w-[332px] h-[48px]"
+          <Google fontSize="inherit" /> Register with Google
+        </button>
+        <button
+          style={{ borderRadius: 0 }}  
+          className="text-sm  normal-case flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-blue-700 text-white"
         >
-          Register with Facebook
-        </Button>
-        <Divider className="mt-4  w-[332px]  flex items-center justify-center">
+          <Facebook fontSize="inherit" /> Register with Facebook
+        </button>
+         
+        <Divider className=" w-[332px] mt-4 flex items-center justify-center">
           <Chip label="or" />
         </Divider>
         <TextField
@@ -68,13 +65,19 @@ export default function Register() {
             </Link>
           </Typography>
         </Box>
-        <Button
+        <button
+          style={{ borderRadius: 0 }}  
+          className=" normal-case flex text-sm items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
+        >
+         <LoginIcon fontSize="inherit" />   Register 
+        </button>
+        {/* <Button
           style={{ borderRadius: 0 }}
           startIcon={<LoginIcon />}
           className="bg-custom-primary normal-case	 text-white mt-2  w-[332px] h-[48px]"
         >
           Register now
-        </Button>
+        </Button> */}
         {/* <Box className="text-left mt-4 w-[332px] h-[32px]  flex items-center justify-start">
           <Typography className="text-left " variant="subtitle2">
             Forget password,{" "}

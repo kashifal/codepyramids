@@ -13,7 +13,7 @@ const Header = () => {
     { title: "Home", link: "/" },
     { title: "Courses", link: "/courses" },
     { title: "Success Stories", link: "/scholarship" },
-    { title: "Challenge", link: "/projects" },
+    { title: "For School", link: "/projects" },
     // { title: <Favorite />, link: "/projects" },
     // { title: "Report", link: "/" },
   ];
@@ -23,8 +23,8 @@ const Header = () => {
         <div className=" w-full  flex item-center justify-between ">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
-              <h2 className="font-black text-xl text-custom-dark t-logo">
-                edu<span className="text-custom-primary">qode.</span>
+              <h2 className="font-medium text-xl text-custom-pink t-logo">
+                edu<span style={{color:'#2ea2db'}}>q</span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
               </h2>
             </Link>
 
@@ -49,27 +49,27 @@ const Header = () => {
               <Sidebar />
             </span>
           </div>
-          <div className="w-6/12 items-center justify-end hidden gap-x-4 lg:flex">
+          <div className="w-6/12 items-center justify-end hidden gap-x-2 lg:flex">
             {links.map((link) => (
               <Link key={link.title} to={link.link}>
-                <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">
+                <button className="text-custom-dark px-4 xl:px-4 text-xs py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">
                   {link.title}
                 </button>
               </Link>
             ))}
-            {/* <Link to="/register">
-              <button className="normal-case font-light text-sm	bg-custom-primary px-4 py-2 text-white">
+            <Link to="/register">
+              <button className="normal-case font-light text-xs	bg-custom-primary px-4 py-2 text-white">
                 Register
               </button>
-            </Link> */}
+            </Link>
 
-            <Button
+            {/* <button
               component={Link}
               to="/register"
               className="normal-case rounded-none font-light text-sm	bg-custom-primary px-4 py-2 text-white"
             >
               Register
-            </Button>
+            </button> */}
           </div>
         </div>
       </div>

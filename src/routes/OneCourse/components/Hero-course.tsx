@@ -1,13 +1,15 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import InputLabel from '@mui/material/InputLabel';
-import { Clear } from "@mui/icons-material";
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { Link } from "react-router-dom"; 
+import { Clear } from "@mui/icons-material"; 
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
+import dayjs, { Dayjs } from 'dayjs';
+import TextField from '@mui/material/TextField';
+import { StaticTimePicker } from '@mui/x-date-pickers/StaticTimePicker';
+
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+
 
 
 const coursesData = [
@@ -62,39 +64,48 @@ const coursesData = [
   },
 ];
 const OneCourse = () => {
-  const [datas, setDatas] = useState<any>({});
-  const [age, setAge] = React.useState('');
+   
   const [active, setActive] = React.useState(false);
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value as string);
-  };
-console.log(active);
-
-  const id = useParams();
-
-  
-
-  useEffect(() => {
-    setTimeout(() => setActive(true), 5000);
-    
-  },[]);
+   
  
+  const day = new Date();
+
+  const [value, setValue] = React.useState<Dayjs | null>(
+    dayjs(day)
+  );
+
+
+ 
+ 
+  
    
   
 
   return (
     <Fragment>
       <div style={{backgroundColor:'rgba(0,0,0,0.4)'}} className={`${active === false ? 'hidden' : 'flex'}  overlay transition-all  items-center justify-center fixed w-screen h-screen top-0 left-0  z-50`}>
-        <div className="w-96 h-64 bg-white rounded transition-all p-4">
+        <div className="min-w-[200px] bg-gray-100 min-h-[60px]  rounded transition-all p-4">
           <span className="bg-red-100 p-1 cursor-pointer" onClick={() => setActive(false)}>
             <Clear fontSize="small" color="error" />
           </span>
-         <h1 className="text-custom-pink mt-4 text-center text-xl font-bold">Great Decision 🚀</h1> 
-         <p className="text-lg mt-4">
-         "We all make choices, but in the end, our choices make us."
-         </p>
-      <button className="float-right bg-custom-pink text-white px-4 py-2 " onClick={() => setActive(!true)}>Thanks</button>
+         <h1 className="text-custom-pink mt-4 pb-8 text-center text-xl font-bold">Select Class Time 🚀</h1> 
+         <LocalizationProvider  dateAdapter={AdapterDayjs}>
+      <StaticTimePicker 
+      ampm
+      className="normal-case"
+        orientation="portrait"
+        toolbarTitle="Click on Hours and Mins"
+        openTo="hours"
+        value={value}
+        onChange={(newValue) => {
+          setValue(newValue);
+        }}
+        renderInput={(params) => <TextField  {...params} />}
+      />
+    </LocalizationProvider>
+    <p></p>
+      <button className="float-right bg-custom-pink  text-white px-4 w-full py-2 " onClick={() => setActive(!true)}>I am done let's go</button>
         </div>
       </div>
       <div className="relative overflow-hidden mt-[64px] min-h-[70vh] bg-custom-dark flex items-center justify-center ">
@@ -118,7 +129,7 @@ console.log(active);
             </h1>
             <div className="mt-4 btns">
               
-                <button  className="px-5 py-2    bg-custom-pink text-white ">
+                <button onClick={() => setActive(true)}  className="px-5 py-2    bg-custom-pink text-white ">
                   <RocketLaunchIcon /> Buy this course
                 </button>
                

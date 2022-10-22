@@ -16,6 +16,7 @@
 .TextField-without-border-radius fieldset {
   border-radius: 0;
 }
-.fav:nth-child(2) {
-  color: red;
+ 
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+display: none !important;
 }

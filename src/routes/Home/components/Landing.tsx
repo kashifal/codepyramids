@@ -1,15 +1,36 @@
 import Typed from "react-typed";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import { Clear } from "@mui/icons-material";
 // import hero from "../../assets/hero-image.png";
 // import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 const logo = require("../../../assets/hero-image-0.png");
 
 const Landing = () => {
+  const [active, setActive] = React.useState(false);
+
+
+  useEffect(() => {
+    setTimeout(() => setActive(true), 5000);
+  },[])
+
   return (
     <Fragment>
+
       <div className="relative  mt-[64px] overflow-hidden w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
+      <div style={{backgroundColor:'rgba(0,0,0,0.4)'}} className={`${active === false ? 'hidden' : 'flex'}  overlay transition-all  items-center justify-center fixed w-screen h-screen top-0 left-0  z-50`}>
+        <div className="w-96 bg-gray-100 min-h-[60px]  rounded transition-all p-4">
+          <span className="bg-red-100 p-1 cursor-pointer" onClick={() => setActive(false)}>
+            <Clear fontSize="small" color="error" />
+          </span>
+           
+         <h1 className="text-custom-pink mt-4  text-center text-xl font-bold">You are welcome 🚀</h1> 
+          
+    <p className="mt-4">"We all make choices, but in the end, our choices make us." — Ken Levine</p>
+      <button className="float-right mt-4 bg-custom-pink  text-white px-4 w-full py-2 " onClick={() => setActive(!true)}>Thanks and close</button>
+        </div>
+      </div>
         <div className="w-[1424px] mx-auto px-4  h-full  flex items-center justify-between md:flex-row flex-col-reverse">
           <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
             <p className="text-white font-light text-sm mt-4 md:mt-0">
@@ -36,14 +57,14 @@ const Landing = () => {
             </p>
             <div className="mt-6 btns">
               <Link to="/courses">
-                <Button className="px-5 py-2  normal-case  rounded-none   bg-custom-pink text-white ">
+                <button className="px-5 py-2  normal-case  rounded-none   bg-custom-pink text-white ">
                   Courses
-                </Button>
+                </button>
               </Link>
               <Link to="/register">
-                <Button className="px-5 py-2 rounded-none  normal-case  ml-2 bg-white text-custom-dark ">
+                <button className="px-5 py-2 rounded-none  normal-case  ml-2 bg-white text-custom-dark ">
                   Register
-                </Button>
+                </button>
               </Link>
             </div>
           </div>

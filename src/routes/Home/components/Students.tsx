@@ -34,9 +34,9 @@ const Students = () => {
           </p>
           <div className="mt-6 btns">
             <Link to="/internship">
-              <Button className="px-5 py-2 normal-case rounded-none  border-custom-pink bg-custom-pink text-white ">
+              <button className="px-5 py-2 normal-case rounded-none  border-custom-pink bg-custom-pink text-white ">
                 Our Teachers
-              </Button>
+              </button>
             </Link>
             {/* <button className="px-5 py-2   ml-2 bg-white text-custom-dark rounded">
               Projects
