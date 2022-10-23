@@ -33,9 +33,9 @@ const Landing = () => {
     <Fragment>
       <div className="relative w-full min-h-[70vh] bg-[#f4f7fc] px-4 md:px-6 xl:px-4  flex items-center justify-center ">
         <div className="w-[1424px] mx-auto py-6 h-full ">
-          <h1 className="text-[28px] text-center -mt-2 md:text-[35px]  xl:text-[30px] text-black  font-bold leading-[32px] md:leading-[40px] xl:leading-[60px] ">
+          <h1 className="text-[24px] text-left -mt-2 md:text-[35px]  xl:text-[30px] text-black  font-bold leading-[32px] md:leading-[40px] xl:leading-[60px] ">
             Students Reviews About
-            <span className="text-custom-primary"> CodePyramids</span>
+            <span className="text-custom-primary"> eduqode</span>
           </h1>
           <div className="flex items-center justify-around gap-y-8 flex-wrap  mt-8 comments">
             {reviews.map((item, index) => (
@@ -44,9 +44,9 @@ const Landing = () => {
                 className=" min-h-32 lg:max-w-[350px] xl:max-w-[600px]  p-4 border-2"
               >
                 <div className="flex items-center">
-                  <div className="w-full flex">
+                  <div className="w-full object-cover flex">
                     <img
-                      className="w-8  h-8 rounded-full border-2  border-custom-primary"
+                      className="w-8  h-8 object-cover rounded-full border-2  border-custom-primary"
                       src={item.pic}
                       alt=""
                     />{" "}

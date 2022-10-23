@@ -13,16 +13,16 @@ const Landing = () => {
 
           <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
 
-          <div className="w-full items-center md:w-6/12 h-full flex md:items-start justify-center flex-col">
-            <p className="text-white font-light text-sm mt-4 md:mt-0">
+          <div className="w-full  md:w-6/12 h-full flex  items-start justify-center flex-col">
+            <p className="text-white text-left font-light text-sm mt-4 md:mt-0">
               Benefits of learning code
             </p>
-            <h1 className="text-[28px] md:text-[35px] text-center	md:text-left xl:text-[50px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
+            <h1 className="text-[24px] md:text-[35px] text-left	md:text-left xl:text-[40px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
               Programming is most paying
               <br />
               Job in the world.{" "}
             </h1>
-            <p className="text-center	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-normal  mt-6">
+            <p className="text-left	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-light  mt-2 md:mt-6">
               We mentor the young learners to thrive in this new world- with the
               education that equips them with future skills and raises awareness
               to become the architect of their life. We are the enterpeneurs

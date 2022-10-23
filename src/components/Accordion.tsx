@@ -34,12 +34,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 1
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 Introduction to computer science
               </Typography>
             </AccordionSummary>
@@ -86,12 +86,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 2
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 Introduction to Web Developmet
               </Typography>
             </AccordionSummary>
@@ -138,12 +138,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 3
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 What Programming we are gonna use
               </Typography>
             </AccordionSummary>
@@ -190,12 +190,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 4
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 All about Html,css and Js
               </Typography>
             </AccordionSummary>
@@ -242,12 +242,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 5
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 CSS framework tailwind css
               </Typography>
             </AccordionSummary>
@@ -294,12 +294,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 6
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 Let's Build 3 projects
               </Typography>
             </AccordionSummary>
@@ -346,12 +346,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 7
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 Advance concepts of Javascript
               </Typography>
             </AccordionSummary>
@@ -398,12 +398,12 @@ export default function ControlledAccordions() {
               id="panel1bh-header"
             >
               <Typography
-                className="text-custom-primary font-medium"
+                className="text-custom-primary font-medium  hidden md:block"
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 <RocketLaunchIcon /> Module 8
               </Typography>
-              <Typography className="text-custom-dark font-bold">
+              <Typography className="text-custom-dark font-bold text-sm md:text-lg">
                 ReactJS | Game changer
               </Typography>
             </AccordionSummary>

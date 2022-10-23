@@ -13,14 +13,14 @@ export default function Login() {
       <div className="absolute w-[100%]  h-[5px] bg-custom-primary left-0 top-0"></div>
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
-      <button
-          style={{ borderRadius: 0 }}  
+        <button
+          style={{ borderRadius: 0 }}
           className="  text-sm normal-case flex items-center justify-center gap-x-2	 w-[332px] h-[48px] bg-rose-700 text-white"
         >
           <Google fontSize="inherit" /> Register with Google
         </button>
         <button
-          style={{ borderRadius: 0 }}  
+          style={{ borderRadius: 0 }}
           className="text-sm  normal-case flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-blue-700 text-white"
         >
           <Facebook fontSize="inherit" /> Register with Facebook
@@ -51,10 +51,10 @@ export default function Login() {
           </Typography>
         </Box>
         <button
-          style={{ borderRadius: 0 }}  
+          style={{ borderRadius: 0 }}
           className=" normal-case text-sm flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
         >
-           <LoginIcon fontSize="inherit" /> Login 
+          <LoginIcon fontSize="inherit" /> Login
         </button>
         <Box className="text-left mt-4 w-[332px] h-[32px]  flex items-center justify-start">
           <Typography className="text-left " variant="subtitle2">

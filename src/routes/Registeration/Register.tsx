@@ -14,18 +14,18 @@ export default function Register() {
 
       <Box className="h-[70%] w-[25%] flex items-center py-4 flex-col ">
         <button
-          style={{ borderRadius: 0 }}  
+          style={{ borderRadius: 0 }}
           className="text-sm  normal-case flex items-center justify-center gap-x-2	 w-[332px] h-[48px] bg-rose-700 text-white"
         >
           <Google fontSize="inherit" /> Register with Google
         </button>
         <button
-          style={{ borderRadius: 0 }}  
+          style={{ borderRadius: 0 }}
           className="text-sm  normal-case flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-blue-700 text-white"
         >
           <Facebook fontSize="inherit" /> Register with Facebook
         </button>
-         
+
         <Divider className=" w-[332px] mt-4 flex items-center justify-center">
           <Chip label="or" />
         </Divider>
@@ -66,10 +66,10 @@ export default function Register() {
           </Typography>
         </Box>
         <button
-          style={{ borderRadius: 0 }}  
+          style={{ borderRadius: 0 }}
           className=" normal-case flex text-sm items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
         >
-         <LoginIcon fontSize="inherit" />   Register 
+          <LoginIcon fontSize="inherit" /> Register
         </button>
         {/* <Button
           style={{ borderRadius: 0 }}

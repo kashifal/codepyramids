@@ -1,35 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../assets/logo1.png';
 
 const Footer = () => {
   return (
     <div className="relative px-4 md:px-6 xl:px-4 w-full min-h-[60vh] bg-custom-dark flex items-center justify-center flex-wrap">
       <div className="h-full  py-8 w-[1424px] mx-auto flex items-start justify-evenly lg:justify-between  flex-wrap gap-8">
         <div className="w-[270px] h-full text-white  1st">
-        <Link to="/">
-              <h2 className="font-normal text-2xl text-white t-logo items-baseline flex">
-                edu<span style={{color:'#2ea2db'}}><img className="w-4" src={logo} alt="eduqode" /></span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
-              </h2>
-            </Link>
+          <Link to="/">
+            <h2 className="font-normal text-2xl text-white t-logo">
+              edu<span style={{ color: "#2ea2db" }}>q</span>
+              <span style={{ color: "#e06f2d" }}>o</span>
+              <span style={{ color: "#b72de0" }}>d</span>
+              <span style={{ color: "#e0b12d" }}>e</span>
+            </h2>
+          </Link>
 
           <div className="mt-8">
             <h1 className="font-black text-custom-primary">Phones:</h1>
             <div className="">
               <p className="mt-1">
-                Pakistan :{" "}
-                <span className="font-light text-[14px]">(+92) 3246897397</span>
+                PK :{" "}
+                <span className="font-light text-sm">(+92) 3246897397</span>
               </p>
               <p className="mt-1">
                 KSA :{" "}
-                <span className="font-light text-[14px]">(+92) 3246897397</span>
+                <span className="font-light text-sm">(+92) 3246897397</span>
               </p>
               <p className="mt-1">
-                US : <span className="font-light">(+92) 3246897397</span>
+                US : <span className="font-light text-sm">(+1) 3246897397</span>
+              </p>
+              <p className="mt-1">
+                IND : <span className="font-light text-sm">(+96) 3246897397</span>
               </p>
               <p className="mt-1">
                 GB :{" "}
-                <span className="font-light text-[14px]">(+92) 3246897397</span>
+                <span className="font-light text-sm">(+496) 3246897397</span>
               </p>
             </div>
           </div>
