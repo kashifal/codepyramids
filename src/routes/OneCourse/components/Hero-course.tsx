@@ -150,7 +150,7 @@ const OneCourse = () => {
             <iframe
               className="max-w-[350px] z-40 md:max-w-[320px] lg:max-w-[430px] border-4 border-custom-primary"
               width="560"
-              height="315"
+              height="300"
               src="https://www.youtube.com/embed/8UVNT4wvIGY"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

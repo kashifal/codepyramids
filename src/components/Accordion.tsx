@@ -44,32 +44,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm whitespace-nowrap">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -96,32 +96,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -148,32 +148,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -200,32 +200,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -252,32 +252,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -304,32 +304,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -356,32 +356,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
@@ -408,32 +408,32 @@ export default function ControlledAccordions() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Box className="flex">
-                <Typography className="text-custom-dark">Topic 1</Typography>{" "}
+              <Box className="flex gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 1</Typography>{" "}
                 <Typography className="pl-16  text-custom-dark">
                   What is Computer Science.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 2</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 2</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 3</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 3</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Low level Programmig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 4</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 4</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is High levelProgrammig language.
                 </Typography>
               </Box>
-              <Box className="flex  mt-4">
-                <Typography className="text-custom-dark">Topic 5</Typography>{" "}
+              <Box className="flex  mt-4 gap-x-2">
+                <Typography className="text-custom-dark text-xs whitespace-nowrap md:text-sm">Topic 5</Typography>{" "}
                 <Typography className="pl-16 text-custom-dark">
                   What is Programmig language.
                 </Typography>

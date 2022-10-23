@@ -70,11 +70,11 @@ const coursesData = [
 export default function App({ age }: any) {
   const images = new Array(6).fill({ url: image });
   return (
-    <Fragment>
-      <div className="relative max-w-[1424px] mx-auto mt-20">
-        <h1 className=" text-[30px] md:text-[32px] font-bold text-custom-dark text-left">
+    <Fragment> 
+      <div className="relative max-w-[1424px] w-full mx-auto mt-20">
+        <h1 className=" text-[28px] md:text-[32px] font-bold text-custom-dark text-left">
           {/* <span className="text-custom-primary text-[30px] font-bold">.</span> */}
-          <span className="font-black text-custom-primary">{age}</span> <br />
+          <span className="font-black  text-custom-primary">{age}</span> <br />
         </h1>
       </div>
       <div className="relative max-w-[1424px] mx-auto min-h-[40vh] overflow-hidden flex items-center justify-center mt-4 ">
@@ -147,7 +147,7 @@ export default function App({ age }: any) {
             ))}
           </Swiper>
         </div>
-      </div>
+      </div> 
     </Fragment>
   );
 }
