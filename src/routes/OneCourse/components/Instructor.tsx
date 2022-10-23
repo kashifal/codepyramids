@@ -18,9 +18,9 @@ const Instructor = () => {
             </h1>
             <div className="flex mt-4 ">
               <div className="flex bg-custom-primary p-4 items-center justify-center">
-                <div className="w-24 h-24 rounded-full object-contain overflow-hidden   ">
+                <div className="w-24 h-24  rounded-full object-contain overflow-hidden   ">
                   <img
-                    className="object-contain"
+                    className="object-contain  "
                     src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVhY2hlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
                     alt=""
                   />
