@@ -11,6 +11,6 @@ React ( Typescript ), Tailwind, Mui, iconify react, 3d (1con8)
 NodeJS, Moongose, Forge (server) ::: for now vercel
 
 
-`yarn add` 
+`yarn` 
 
 `yarn start` 
