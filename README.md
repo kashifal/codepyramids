@@ -9,3 +9,8 @@ React ( Typescript ), Tailwind, Mui, iconify react, 3d (1con8)
 ### `Backend`
 
 NodeJS, Moongose, Forge (server) ::: for now vercel
+
+
+`yarn add` 
+
+`yarn start` 
