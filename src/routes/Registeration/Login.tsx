@@ -52,7 +52,7 @@ export default function Login() {
         </Box>
         <button
           style={{ borderRadius: 0 }}
-          className=" normal-case text-sm flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
+          className=" normal-case text-sm flex items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-primary text-white"
         >
           <LoginIcon fontSize="inherit" /> Login
         </button>

@@ -7,7 +7,7 @@ const logo = require("../../../assets/hero-image-1.png");
 
 const Students = () => {
   return (
-    <div className=" w-full min-h-[60vh] px-4 md:px-6 xl:px-4 flex items-center justify-center mt-12">
+    <div className=" w-full min-h-[60vh] bg-custom-dark px-4 md:px-6 xl:px-4 flex items-center mt-16 justify-center">
       <div className="w-[1424px] mx-auto   h-full  flex items-center justify-between md:flex-row flex-col-reverse">
         <div className="relative w-6/12 h-full flex items-center justify-center mt-8 md:mt-0">
           <img
@@ -15,26 +15,29 @@ const Students = () => {
             src={logo}
             alt=""
           />
-          <div className="absolute hidden lg:block sudo h-[100px] w-[500px] bg-custom-pink left-0 "></div>
-          <div className="absolute hidden lg:block  h-[400px] left-0 top-52 w-[100px] bg-custom-pink"></div>
+          <div className="absolute hidden lg:block sudo h-[100px] w-[500px] bg-custom-primary left-0 "></div>
+          <div className="absolute hidden lg:block  h-[400px] left-0 top-52 w-[100px] bg-custom-primary"></div>
         </div>
         <div className="w-full  md:w-6/12 h-full flex items-start justify-center flex-col">
-          <p className="text-black font-light text-left text-sm mt-2 ">
+          <p className="text-white font-light text-left text-sm mt-2 ">
             Students Love our services....
           </p>
-          <h1 className="text-[28px] md:text-[35px]  	text-left xl:text-[40px] text-black  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
-            We Teach From Heart,
-            <br />
-            From deep heart.
+          <h1 className="text-[28px] md:text-[35px]  	text-left xl:text-[40px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
+            We Teach, From{" "}
+            <span className="bg-custom-primary px-2 py-4">deep heart .</span>
           </h1>
-          <p className="text-left	md:text-left text-[14px] md:text-[16px] text-gray-700 leading-[19px] md:leading-[24px] font-light mt-2  md:mt-6">
-            We mentor the young learners to thrive in this new world- with the
-            education that equips them with future skills and raises awareness
-            to become the architect of their life.
+          <p className="text-left	md:text-left text-[14px] md:text-[16px] text-[#d0d0d0] leading-[19px] md:leading-[24px] font-light mt-2  md:mt-6">
+            We{" "}
+            <span className="px-2 rounded bg-cus-blue ">
+              mentor the young learners
+            </span>{" "}
+            to thrive in this new world- with the education that equips them
+            with future skills and raises awareness to become the architect of
+            their life.
           </p>
           <div className="mt-6 btns">
             <Link to="/internship">
-              <button className="px-5  text-sm  py-2 normal-case rounded-none  border-custom-pink bg-custom-pink text-white ">
+              <button className="px-5  text-sm  py-2 normal-case rounded-none  border-custom-primary border-2 hover:bg-custom-primary text-custom-primary hover:text-white ">
                 Our Teachers
               </button>
             </Link>

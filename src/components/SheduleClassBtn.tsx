@@ -9,7 +9,7 @@ const OneCourse = () => {
         rootElement={document.getElementById("root")!}
         text="Scdeule free demo class"
         textColor="#ffffff"
-        color="#1FAB89"
+        color="#22c55e"
       />
     </div>
   );

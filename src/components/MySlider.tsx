@@ -70,15 +70,18 @@ const coursesData = [
 export default function App({ age }: any) {
   const images = new Array(6).fill({ url: image });
   return (
-    <Fragment> 
-      <div className="relative max-w-[1424px] w-full mx-auto mt-20">
-        <h1 className=" text-[28px] md:text-[32px] font-bold text-custom-dark text-left">
+    <div className="mt-16">
+      <div className="relative bg-[custom-dark]  max-w-[1424px]   w-full mx-auto">
+        <h1 className=" text-[28px] md:text-[32px]  font-bold text-custom-dark text-left">
           {/* <span className="text-custom-primary text-[30px] font-bold">.</span> */}
-          <span className="font-black  text-custom-primary">{age}</span> <br />
+          <span className="font-black text-custom-primary px-2 py-4  ">
+            {age}
+          </span>{" "}
+          <br />
         </h1>
       </div>
-      <div className="relative max-w-[1424px] mx-auto min-h-[40vh] overflow-hidden flex items-center justify-center mt-4 ">
-        <div className="w-full  h-full ">
+      <div className="relative  max-w-[1424px]   mx-auto min-h-[40vh] overflow-hidden flex items-center justify-center mt-8 ">
+        <div className="w-full   h-full ">
           <Swiper
             modules={[Navigation, Pagination]}
             // className="external-buttons"
@@ -116,7 +119,7 @@ export default function App({ age }: any) {
             }}
           >
             {coursesData.map((item, index) => (
-              <SwiperSlide key={index} className="swiper-slide border-4 border-custom-primary">
+              <SwiperSlide key={index} className="swiper-slide  ">
                 <div className="absolute z-40 text-sm font-medium text-white min-w-16 px-2 h-6 top-2 left-2 flex items-center justify-center bg-custom-primary ">
                   PKR 4500
                 </div>
@@ -128,7 +131,7 @@ export default function App({ age }: any) {
                       <img src={item.logo} alt="" />
                     </div>
                   </div>
-                  <div className="w-full h-[60%] bg-custom-dark px-4 text-left text-white py-14 info">
+                  <div className="w-full h-[60%] bg-[#2a2e35] px-4 text-left text-white py-14 info">
                     <h1 className="font-bold text-[16px] text-left">
                       {item.title}
                     </h1>
@@ -137,7 +140,7 @@ export default function App({ age }: any) {
                       nemo commodi molestiae.
                     </p>
                     <Link to={`/course/${item.id}`}>
-                      <button className="px-2 py-[4px] text-sm font-light mt-2 border-2 border-custom-primary w-full  hover:bg-custom-primary hover:text-white transition-all   text-custom-primary ml-0">
+                      <button className="px-2 py-[4px] text-sm font-light mt-2 border-2 border-custom-primary w-full hover:text-white  hover:bg-custom-primary text-custom-primary transition-all   ml-0">
                         Register Now
                       </button>
                     </Link>
@@ -147,7 +150,7 @@ export default function App({ age }: any) {
             ))}
           </Swiper>
         </div>
-      </div> 
-    </Fragment>
+      </div>
+    </div>
   );
 }

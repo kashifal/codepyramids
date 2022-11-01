@@ -19,24 +19,26 @@ const Header = () => {
   ];
   return (
     <Fragment>
-      <div style={{backgroundColor:'rgba(255,255,255,0.4)'}} className="z-50  transition-all shadow-sm w-full backdrop-blur-lg mx-auto px-4 md:px-6 xl:px-4 fixed top-0  h-[64px] flex items-center justify-center">
-        <div className=" w-full  flex item-center justify-between ">
+      <div className="z-50 bg-custom-dark transition-all shadow-sm w-full  backdrop-blur-lg mx-auto px-4 md:px-6 xl:px-4 fixed top-0  h-[96px] flex items-center justify-center">
+        <div className=" w-full  flex item-center justify-between max-w-[1600px] mx-auto">
           <div className="h-full w-6/12 flex items-center justify-start ">
             <Link to="/">
-              <h2 className="font-medium text-xl text-custom-pink t-logo">
-                edu<span style={{color:'#2ea2db'}}>q</span><span style={{color:'#e06f2d'}}>o</span><span style={{color:'#b72de0'}}>d</span><span style={{color:'#e0b12d'}}>e</span>
+              <h2 className=" text-2xl font-black text-white t-logo tracking-wider">
+                EduQode
               </h2>
             </Link>
 
-            <div style={{backgroundColor:'rgba(255,255,255,0.7)'}} className="border-2 border-gray-100  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block">
+            <div
+              // style={{ backgroundColor: "rgba(255,255,255,0.7)" }}
+              className="border-2 border-custom-dark bg-custom-dark  lg:ml-3 xl:ml-8 relative hidden lg:w-72   xl:w-96 rounded-full  lg:block"
+            >
               <div className="absolute flex items-center justify-between h-full">
                 <div className="ml-4 text-slate-500">
                   <SearchIcon />
                 </div>
               </div>
               <input
-              
-                className="bg-transparent rounded-full px-4 py-2 w-60 outline-none xl:w-80 ml-10 "
+                className="bg-transparent rounded-full text-custom-primary px-4 py-2 w-60 outline-none xl:w-80 ml-10 "
                 type="text"
                 placeholder="Search for the best"
                 name=""
@@ -52,7 +54,7 @@ const Header = () => {
           <div className="w-6/12 items-center justify-end hidden gap-x-2 lg:flex">
             {links.map((link) => (
               <Link key={link.title} to={link.link}>
-                <button className="text-custom-dark px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">
+                <button className="text-white px-4 xl:px-4 text-sm py-2 leading-5 font-light  mx-0 xl:mx-2 hover:text-custom-primary fav">
                   {link.title}
                 </button>
               </Link>

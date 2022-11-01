@@ -16,7 +16,7 @@ const Landing = () => {
 
   return (
     <Fragment>
-      <div className="relative  mt-[64px] overflow-hidden w-full min-h-[70vh] bg-custom-dark flex items-center justify-center ">
+      <div className="relative  mt-[96px] overflow-hidden w-full min-h-[60vh] bg-custom-dark flex items-center justify-center ">
         <div
           style={{ backgroundColor: "rgba(0,0,0,0.4)" }}
           className={`${
@@ -31,7 +31,7 @@ const Landing = () => {
               <Clear fontSize="small" color="error" />
             </span>
 
-            <h1 className="text-custom-pink mt-4  text-center text-xl font-bold">
+            <h1 className="text-custom-primary mt-4  text-center text-xl font-bold">
               You are welcome 🚀
             </h1>
 
@@ -40,7 +40,7 @@ const Landing = () => {
               Levine
             </p>
             <button
-              className="float-right mt-4 bg-custom-pink  text-white px-4 w-full py-2 "
+              className="float-right mt-4 bg-custom-primary  text-white px-4 w-full py-2 "
               onClick={() => setActive(!true)}
             >
               Thanks and close
@@ -52,11 +52,11 @@ const Landing = () => {
             <p className="text-white text-left font-light text-sm mt-4 md:mt-0">
               Pakistan's Best School For Best People
             </p>
-            <h1 className="text-[24px] md:text-[35px] text-left	md:text-left xl:text-[50px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
+            <h1 className="text-[24px] md:text-[35px] text-left	md:text-left xl:text-[50px] text-white  font-black   ">
               Best Online Programming
               <br />
               School For{" "}
-              <span className="text-custom-pink">
+              <span className=" px-2 py-4 text-white bg-custom-primary">
                 <Typed
                   strings={["Kids.", "You.", "Everyone."]}
                   typeSpeed={70}
@@ -67,28 +67,32 @@ const Landing = () => {
             </h1>
             <p className="text-left	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-light  md:mt-6 mt-2">
               We mentor the young learners to thrive in this new world- with the
-              education that equips them with future skills and raises awareness
-              to become the architect of their life. We are the enterpeneurs
-              making your kids leaders.
+              education that equips them with{" "}
+              <span className="bg-[#ffcb2b] rounded px-2 text-custom-dark">
+                future skills
+              </span>{" "}
+              and raises awareness to become the architect of their life. We are
+              the{" "}
+              <span className="bg-cus-yellow px-2 text-custom-dark">
+                enterpeneurs making your kids leaders.
+              </span>
             </p>
             <div className="mt-6 btns">
               <Link to="/courses">
-                <button className="px-5 py-2 text-sm  normal-case  rounded-none   bg-custom-pink text-white ">
+                <button className="px-5 py-2 text-sm  normal-case  rounded-none   text-custom-primary border-2 border-custom-primary hover:text-white hover:bg-custom-primary">
                   Courses
                 </button>
               </Link>
               <Link to="/register">
-                <button className="px-5 py-2 text-sm  rounded-none  normal-case  ml-2 bg-white text-custom-dark ">
+                <button className="px-5 py-2 text-sm  rounded-none border-2 text-white  normal-case  ml-2 hover:bg-white hover:text-custom-dark ">
                   Register
                 </button>
               </Link>
             </div>
           </div>
           <div className="relative w-6/12 h-full flex items-center justify-center ">
-            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
-
-            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
-
+            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
+            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-primary"></div>
             <img
               className="max-w-[250px] z-40 md:max-w-[320px] lg:max-w-[430px]"
               src={logo}

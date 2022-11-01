@@ -83,7 +83,7 @@ const OneCourse = () => {
           >
             <Clear fontSize="small" color="error" />
           </span>
-          <h1 className="text-custom-pink mt-4 pb-8 text-center text-xl font-bold">
+          <h1 className="text-custom-primary mt-4 pb-8 text-center text-xl font-bold">
             Select Class Time 🚀
           </h1>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -102,7 +102,7 @@ const OneCourse = () => {
           </LocalizationProvider>
           <p></p>
           <button
-            className="float-right bg-custom-pink  text-white px-4 w-full py-2 "
+            className="float-right bg-custom-primary  text-white px-4 w-full py-2 "
             onClick={() => setActive(!true)}
           >
             I am done let's go
@@ -131,7 +131,7 @@ const OneCourse = () => {
             <div className="mt-4 btns">
               <button
                 onClick={() => setActive(true)}
-                className="px-2 md:px-5 py-2 text-sm   bg-custom-pink text-white "
+                className="px-2 md:px-5 py-2 text-sm   bg-custom-primary text-white "
               >
                 <RocketLaunchIcon /> Buy this course
               </button>
@@ -144,9 +144,9 @@ const OneCourse = () => {
             </div>
           </div>
           <div className="relative w-6/12 h-full flex items-center justify-center ">
-            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
+            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
 
-            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
+            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-primary"></div>
             <iframe
               className="max-w-[350px] z-40 md:max-w-[320px] lg:max-w-[430px] border-4 border-custom-primary"
               width="560"

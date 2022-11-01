@@ -7,20 +7,21 @@ const logo = require("../../../assets/benefits.png");
 const Landing = () => {
   return (
     <Fragment>
-      <div className="relative overflow-hidden px-4 md:px-6 xl:px-4 w-full min-h-[70vh] bg-custom-dark mt-8 flex items-center justify-center ">
+      <div className="relative overflow-hidden px-4 md:px-6 xl:px-4 w-full min-h-[60vh] bg-custom-dark mt-16 flex items-center justify-center ">
         <div className="relative w-[1424px] mx-auto   h-full   flex items-center justify-between md:flex-row flex-col-reverse">
-          <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
+          <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
 
-          <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-pink"></div>
+          <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-64 bg-custom-primary"></div>
 
           <div className="w-full  md:w-6/12 h-full flex  items-start justify-center flex-col">
-            <p className="text-white text-left font-light text-sm mt-4 md:mt-0">
+            <p className="text-white  text-left font-light text-sm mt-4 md:mt-0">
               Benefits of learning code
             </p>
-            <h1 className="text-[24px] md:text-[35px] text-left	md:text-left xl:text-[40px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[60px] ">
-              Programming is most paying
-              <br />
-              Job in the world.{" "}
+            <h1 className="text-[24px] md:text-[35px] text-left	md:text-left xl:text-[40px] text-white  font-black  ">
+              Coding is perfect
+              <span className="bg-custom-primary px-2 py-4 ">
+                Job in the world.
+              </span>{" "}
             </h1>
             <p className="text-left	md:text-left text-[14px] md:text-[16px] text-white leading-[19px] md:leading-[24px] font-light  mt-2 md:mt-6">
               We mentor the young learners to thrive in this new world- with the

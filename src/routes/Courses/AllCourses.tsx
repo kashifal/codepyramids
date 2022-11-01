@@ -24,11 +24,10 @@ const AllCourses = () => {
             </p> */}
 
             <h1 className="text-[28px] text-left md:text-[35px] 	md:text-left xl:text-[70px] text-white  font-black leading-[32px] md:leading-[40px] xl:leading-[75px] ">
-              Take Your Favourite 
-              Course for Free <br />
+              Take Your Favourite Course for Free <br />
               <span className="font-light text-left text-custom-primary">
                 Learn{" "}
-                <span className="text-custom-pink">
+                <span className="text-custom-primary">
                   <Typed
                     strings={[
                       `Php`,
@@ -47,9 +46,9 @@ const AllCourses = () => {
             </h1>
           </div>
           <div className="relative w-6/12 h-full flex items-center justify-center ">
-            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-pink right-0 "></div>
+            <div className="absolute hidden lg:block  h-[100px] w-[500px] mt-4 bg-custom-primary right-0 "></div>
 
-            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-pink"></div>
+            <div className="absolute hidden lg:block h-[400px] right-0  w-[100px] -top-48 bg-custom-primary"></div>
 
             <img
               className="w-[300px] md:w-[200px] z-40 lg:w-[350px]"

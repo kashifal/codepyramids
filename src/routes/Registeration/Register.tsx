@@ -67,7 +67,7 @@ export default function Register() {
         </Box>
         <button
           style={{ borderRadius: 0 }}
-          className=" normal-case flex text-sm items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-pink text-white"
+          className=" normal-case flex text-sm items-center justify-center gap-x-2 mt-2	 w-[332px] h-[48px] bg-custom-primary text-white"
         >
           <LoginIcon fontSize="inherit" /> Register
         </button>

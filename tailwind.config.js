@@ -5,9 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "custom-dark": "#000838",
-        "custom-primary": "#1FAB89",
-        "custom-pink": "#1FAB89",
+        "custom-dark": "#12181b",
+        "custom-primary": "#22c55e",
+        "cus-yellow": "#ffcb2b",
+        "cus-blue": "#2775c3",
       },
     },
   },
